@@ -29,15 +29,15 @@
                 <!-- einde linker card -->
             </div>
             <div class="col-4">
-                <select id="select_soort" class="form-select mt-4 mb-3" onchange="checkInformation()">
-                    <option selected>Kies....</option>
+                <select id="select_soort" class="form-select mt-4 mb-3 is-invalid" onchange="checkInformation()">
+                    <option value="" selected>Kies....</option>
                     <option value="1">van</option>
                     <option value="2">toename</option>
                     <option value="3">afname</option>
                   </select>
                   <div class="input-group mb-3">
                     <span class="input-group-text">Percentage</span>
-                    <input id="inp_perc" type="text" class="form-control" onchange="checkInformation()">
+                    <input id="inp_perc" type="text" class="form-control is-invalid" onchange="checkInformation()">
                     <span class="input-group-text">%</span>
                   </div>
                   <div class="input-group mb-3">
